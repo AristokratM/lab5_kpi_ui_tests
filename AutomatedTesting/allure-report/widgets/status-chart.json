@@ -1,31 +1,31 @@
 [ {
-  "uid" : "9e558f4397f5fdd4",
-  "name" : "TestLogoTitle",
+  "uid" : "6593d03d21248476",
+  "name" : "TestLogoHypertextReference",
   "time" : {
-    "start" : 1639951649373,
-    "stop" : 1639951651405,
-    "duration" : 2032
+    "start" : 1639952271377,
+    "stop" : 1639952273452,
+    "duration" : 2075
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "80590778a5f3344",
-  "name" : "TestMicrophoneButton",
-  "time" : {
-    "start" : 1639951651454,
-    "stop" : 1639951653146,
-    "duration" : 1692
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "77b8b44a21bf37d6",
+  "uid" : "960e03a3060b5b5c",
   "name" : "TestSearch",
   "time" : {
-    "start" : 1639951653147,
-    "stop" : 1639951656227,
-    "duration" : 3080
+    "start" : 1639952275317,
+    "stop" : 1639952278517,
+    "duration" : 3200
   },
   "status" : "passed",
   "severity" : "critical"
+}, {
+  "uid" : "9e90656240ab9392",
+  "name" : "TestMicrophoneButton",
+  "time" : {
+    "start" : 1639952273502,
+    "stop" : 1639952275315,
+    "duration" : 1813
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

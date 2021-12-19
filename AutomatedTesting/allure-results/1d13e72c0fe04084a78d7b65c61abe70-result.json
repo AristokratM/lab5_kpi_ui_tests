@@ -1,7 +1,7 @@
 {
-  "uuid": "1174155c-3972-4740-bcf4-b014a82250ab-tr-0-1003",
-  "historyId": "AutomatedTesting.Tests.TestMicrophoneButton",
-  "fullName": "AutomatedTesting.Tests.TestMicrophoneButton",
+  "uuid": "82a4aca6-1cb5-4791-91a2-c090bb3eb876-tr-0-1001",
+  "historyId": "AutomatedTesting.Tests.TestLogoHypertextReference",
+  "fullName": "AutomatedTesting.Tests.TestLogoHypertextReference",
   "labels": [
     {
       "name": "thread",
@@ -17,7 +17,7 @@
     },
     {
       "name": "testMethod",
-      "value": "TestMicrophoneButton"
+      "value": "TestLogoHypertextReference"
     },
     {
       "name": "package",
@@ -25,11 +25,15 @@
     },
     {
       "name": "tag",
-      "value": "Functional"
+      "value": "UI"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
     },
     {
       "name": "subSuite",
-      "value": "Microphone"
+      "value": "Logo"
     },
     {
       "name": "suite",
@@ -37,19 +41,19 @@
     }
   ],
   "links": [],
-  "name": "TestMicrophoneButton",
+  "name": "TestLogoHypertextReference",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false,
-    "message": "TestMicrophoneButton"
+    "message": "TestLogoHypertextReference"
   },
   "stage": "finished",
-  "description": "Test that after click on microphone button search voice div is displayed\n",
+  "description": "Test website logo to have correct hypertext reference value\n",
   "steps": [
     {
-      "name": "TestMicrophoneButton",
+      "name": "TestLogoHypertextReference",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -61,17 +65,17 @@
       "attachments": [
         {
           "name": "Console Output",
-          "source": "0ff1c963807a4dcaa227ccdea82ae40c-attachment.txt",
+          "source": "239fa58e51464a458f5ed6e71387953c-attachment.txt",
           "type": "text/plain"
         }
       ],
       "parameters": [],
-      "start": 1639951651454,
-      "stop": 1639951653145
+      "start": 1639952271378,
+      "stop": 1639952273446
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1639951651454,
-  "stop": 1639951653146
+  "start": 1639952271377,
+  "stop": 1639952273452
 }

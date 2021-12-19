@@ -1,17 +1,17 @@
 {
-  "uid" : "77b8b44a21bf37d6",
-  "name" : "TestSearch",
-  "fullName" : "AutomatedTesting.Tests.TestSearch",
-  "historyId" : "AutomatedTesting.Tests.TestSearch",
+  "uid" : "6593d03d21248476",
+  "name" : "TestLogoHypertextReference",
+  "fullName" : "AutomatedTesting.Tests.TestLogoHypertextReference",
+  "historyId" : "AutomatedTesting.Tests.TestLogoHypertextReference",
   "time" : {
-    "start" : 1639951653147,
-    "stop" : 1639951656227,
-    "duration" : 3080
+    "start" : 1639952271377,
+    "stop" : 1639952273452,
+    "duration" : 2075
   },
-  "description" : "Test search page result has correct catalog heading\n",
-  "descriptionHtml" : "<p>Test search page result has correct catalog heading</p>\n",
+  "description" : "Test website logo to have correct hypertext reference value\n",
+  "descriptionHtml" : "<p>Test website logo to have correct hypertext reference value</p>\n",
   "status" : "passed",
-  "statusMessage" : "TestSearch",
+  "statusMessage" : "TestLogoHypertextReference",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -21,57 +21,57 @@
   "beforeStages" : [ {
     "name" : "Setup",
     "time" : {
-      "start" : 1639951656227,
-      "stop" : 1639951656227,
+      "start" : 1639952273443,
+      "stop" : 1639952273443,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
-    "description" : "Test search page result has correct catalog heading\n",
+    "description" : "Test website logo to have correct hypertext reference value\n",
     "status" : "passed",
-    "statusMessage" : "TestSearch",
+    "statusMessage" : "TestLogoHypertextReference",
     "steps" : [ {
-      "name" : "TestSearch",
+      "name" : "TestLogoHypertextReference",
       "time" : {
-        "start" : 1639951653147,
-        "stop" : 1639951656227,
-        "duration" : 3080
+        "start" : 1639952271378,
+        "stop" : 1639952273446,
+        "duration" : 2068
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "4a809fed2406d195",
+        "uid" : "f1f2d398ef6018ad",
         "name" : "Console Output",
-        "source" : "4a809fed2406d195.txt",
+        "source" : "f1f2d398ef6018ad.txt",
         "type" : "text/plain",
         "size" : 0
       } ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "shouldDisplayMessage" : true,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ {
     "name" : "TearDown",
     "time" : {
-      "start" : 1639951656227,
-      "stop" : 1639951656227,
+      "start" : 1639952273443,
+      "stop" : 1639952273443,
       "duration" : 0
     },
     "status" : "unknown",
@@ -80,10 +80,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : true,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "thread",
@@ -96,19 +96,19 @@
     "value" : "AutomatedTesting.Tests"
   }, {
     "name" : "testMethod",
-    "value" : "TestSearch"
+    "value" : "TestLogoHypertextReference"
   }, {
     "name" : "package",
     "value" : "AutomatedTesting.Tests"
   }, {
     "name" : "tag",
-    "value" : "Functional"
+    "value" : "UI"
   }, {
     "name" : "severity",
-    "value" : "critical"
+    "value" : "normal"
   }, {
     "name" : "subSuite",
-    "value" : "Search"
+    "value" : "Logo"
   }, {
     "name" : "suite",
     "value" : "Rozetka tests"
@@ -121,11 +121,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "critical",
+    "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "Functional" ]
+    "tags" : [ "UI" ]
   },
-  "source" : "77b8b44a21bf37d6.json",
+  "source" : "6593d03d21248476.json",
   "parameterValues" : [ ]
 }

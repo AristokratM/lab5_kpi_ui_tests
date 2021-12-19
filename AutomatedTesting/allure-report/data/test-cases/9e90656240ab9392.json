@@ -1,17 +1,17 @@
 {
-  "uid" : "9e558f4397f5fdd4",
-  "name" : "TestLogoTitle",
-  "fullName" : "AutomatedTesting.Tests.TestLogoTitle",
-  "historyId" : "AutomatedTesting.Tests.TestLogoTitle",
+  "uid" : "9e90656240ab9392",
+  "name" : "TestMicrophoneButton",
+  "fullName" : "AutomatedTesting.Tests.TestMicrophoneButton",
+  "historyId" : "AutomatedTesting.Tests.TestMicrophoneButton",
   "time" : {
-    "start" : 1639951649373,
-    "stop" : 1639951651405,
-    "duration" : 2032
+    "start" : 1639952273502,
+    "stop" : 1639952275315,
+    "duration" : 1813
   },
-  "description" : "Test website logo to have correct hypertext reference value\n",
-  "descriptionHtml" : "<p>Test website logo to have correct hypertext reference value</p>\n",
+  "description" : "Test that after click on microphone button search voice div is displayed\n",
+  "descriptionHtml" : "<p>Test that after click on microphone button search voice div is displayed</p>\n",
   "status" : "passed",
-  "statusMessage" : "TestLogoTitle",
+  "statusMessage" : "TestMicrophoneButton",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -21,57 +21,57 @@
   "beforeStages" : [ {
     "name" : "Setup",
     "time" : {
-      "start" : 1639951651395,
-      "stop" : 1639951651395,
+      "start" : 1639952275314,
+      "stop" : 1639952275314,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
-    "description" : "Test website logo to have correct hypertext reference value\n",
+    "description" : "Test that after click on microphone button search voice div is displayed\n",
     "status" : "passed",
-    "statusMessage" : "TestLogoTitle",
+    "statusMessage" : "TestMicrophoneButton",
     "steps" : [ {
-      "name" : "TestLogoTitle",
+      "name" : "TestMicrophoneButton",
       "time" : {
-        "start" : 1639951649374,
-        "stop" : 1639951651399,
-        "duration" : 2025
+        "start" : 1639952273502,
+        "stop" : 1639952275315,
+        "duration" : 1813
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "68f59f0e9075af17",
+        "uid" : "43f8aa6ac6c3e346",
         "name" : "Console Output",
-        "source" : "68f59f0e9075af17.txt",
+        "source" : "43f8aa6ac6c3e346.txt",
         "type" : "text/plain",
         "size" : 0
       } ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "shouldDisplayMessage" : true,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ {
     "name" : "TearDown",
     "time" : {
-      "start" : 1639951651396,
-      "stop" : 1639951651396,
+      "start" : 1639952275314,
+      "stop" : 1639952275314,
       "duration" : 0
     },
     "status" : "unknown",
@@ -80,10 +80,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : true,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "thread",
@@ -96,19 +96,16 @@
     "value" : "AutomatedTesting.Tests"
   }, {
     "name" : "testMethod",
-    "value" : "TestLogoTitle"
+    "value" : "TestMicrophoneButton"
   }, {
     "name" : "package",
     "value" : "AutomatedTesting.Tests"
   }, {
     "name" : "tag",
-    "value" : "UI"
-  }, {
-    "name" : "severity",
-    "value" : "normal"
+    "value" : "Functional"
   }, {
     "name" : "subSuite",
-    "value" : "Logo"
+    "value" : "Microphone"
   }, {
     "name" : "suite",
     "value" : "Rozetka tests"
@@ -124,8 +121,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "UI" ]
+    "tags" : [ "Functional" ]
   },
-  "source" : "9e558f4397f5fdd4.json",
+  "source" : "9e90656240ab9392.json",
   "parameterValues" : [ ]
 }

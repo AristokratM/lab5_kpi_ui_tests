@@ -36,7 +36,7 @@ namespace AutomatedTesting
         [AllureTag("UI")]
         [AllureSeverity(SeverityLevel.normal)]
         [AllureSubSuite("Logo")]
-        public void TestLogoTitle()
+        public void TestLogoHypertextReference()
         {
             // Arrange
             var wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));

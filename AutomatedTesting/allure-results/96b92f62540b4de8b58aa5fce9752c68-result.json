@@ -1,7 +1,7 @@
 {
-  "uuid": "ff2df40c-622e-4893-badf-7141c6489c80-tr-0-1001",
-  "historyId": "AutomatedTesting.Tests.TestLogoTitle",
-  "fullName": "AutomatedTesting.Tests.TestLogoTitle",
+  "uuid": "0640123d-aa8e-4e95-9e1a-cdc121bdb28e-tr-0-1003",
+  "historyId": "AutomatedTesting.Tests.TestMicrophoneButton",
+  "fullName": "AutomatedTesting.Tests.TestMicrophoneButton",
   "labels": [
     {
       "name": "thread",
@@ -17,7 +17,7 @@
     },
     {
       "name": "testMethod",
-      "value": "TestLogoTitle"
+      "value": "TestMicrophoneButton"
     },
     {
       "name": "package",
@@ -25,15 +25,11 @@
     },
     {
       "name": "tag",
-      "value": "UI"
-    },
-    {
-      "name": "severity",
-      "value": "normal"
+      "value": "Functional"
     },
     {
       "name": "subSuite",
-      "value": "Logo"
+      "value": "Microphone"
     },
     {
       "name": "suite",
@@ -41,19 +37,19 @@
     }
   ],
   "links": [],
-  "name": "TestLogoTitle",
+  "name": "TestMicrophoneButton",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false,
-    "message": "TestLogoTitle"
+    "message": "TestMicrophoneButton"
   },
   "stage": "finished",
-  "description": "Test website logo to have correct hypertext reference value\n",
+  "description": "Test that after click on microphone button search voice div is displayed\n",
   "steps": [
     {
-      "name": "TestLogoTitle",
+      "name": "TestMicrophoneButton",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -65,17 +61,17 @@
       "attachments": [
         {
           "name": "Console Output",
-          "source": "f3a3864bf0a24ed8b65f1a56e197dbda-attachment.txt",
+          "source": "51e6ff5623f6479ba854cda5b4e11468-attachment.txt",
           "type": "text/plain"
         }
       ],
       "parameters": [],
-      "start": 1639951649374,
-      "stop": 1639951651399
+      "start": 1639952273502,
+      "stop": 1639952275315
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1639951649373,
-  "stop": 1639951651405
+  "start": 1639952273502,
+  "stop": 1639952275315
 }

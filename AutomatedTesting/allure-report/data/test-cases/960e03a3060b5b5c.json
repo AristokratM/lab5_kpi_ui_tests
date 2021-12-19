@@ -1,17 +1,17 @@
 {
-  "uid" : "80590778a5f3344",
-  "name" : "TestMicrophoneButton",
-  "fullName" : "AutomatedTesting.Tests.TestMicrophoneButton",
-  "historyId" : "AutomatedTesting.Tests.TestMicrophoneButton",
+  "uid" : "960e03a3060b5b5c",
+  "name" : "TestSearch",
+  "fullName" : "AutomatedTesting.Tests.TestSearch",
+  "historyId" : "AutomatedTesting.Tests.TestSearch",
   "time" : {
-    "start" : 1639951651454,
-    "stop" : 1639951653146,
-    "duration" : 1692
+    "start" : 1639952275317,
+    "stop" : 1639952278517,
+    "duration" : 3200
   },
-  "description" : "Test that after click on microphone button search voice div is displayed\n",
-  "descriptionHtml" : "<p>Test that after click on microphone button search voice div is displayed</p>\n",
+  "description" : "Test search page result has correct catalog heading\n",
+  "descriptionHtml" : "<p>Test search page result has correct catalog heading</p>\n",
   "status" : "passed",
-  "statusMessage" : "TestMicrophoneButton",
+  "statusMessage" : "TestSearch",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -21,57 +21,57 @@
   "beforeStages" : [ {
     "name" : "Setup",
     "time" : {
-      "start" : 1639951653145,
-      "stop" : 1639951653145,
+      "start" : 1639952278517,
+      "stop" : 1639952278517,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
-    "description" : "Test that after click on microphone button search voice div is displayed\n",
+    "description" : "Test search page result has correct catalog heading\n",
     "status" : "passed",
-    "statusMessage" : "TestMicrophoneButton",
+    "statusMessage" : "TestSearch",
     "steps" : [ {
-      "name" : "TestMicrophoneButton",
+      "name" : "TestSearch",
       "time" : {
-        "start" : 1639951651454,
-        "stop" : 1639951653145,
-        "duration" : 1691
+        "start" : 1639952275317,
+        "stop" : 1639952278517,
+        "duration" : 3200
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "712c5953e061f735",
+        "uid" : "f0eff176893d3a8e",
         "name" : "Console Output",
-        "source" : "712c5953e061f735.txt",
+        "source" : "f0eff176893d3a8e.txt",
         "type" : "text/plain",
         "size" : 0
       } ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "shouldDisplayMessage" : true,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ {
     "name" : "TearDown",
     "time" : {
-      "start" : 1639951653145,
-      "stop" : 1639951653145,
+      "start" : 1639952278517,
+      "stop" : 1639952278517,
       "duration" : 0
     },
     "status" : "unknown",
@@ -80,10 +80,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : true,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "thread",
@@ -96,7 +96,7 @@
     "value" : "AutomatedTesting.Tests"
   }, {
     "name" : "testMethod",
-    "value" : "TestMicrophoneButton"
+    "value" : "TestSearch"
   }, {
     "name" : "package",
     "value" : "AutomatedTesting.Tests"
@@ -104,8 +104,11 @@
     "name" : "tag",
     "value" : "Functional"
   }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
     "name" : "subSuite",
-    "value" : "Microphone"
+    "value" : "Search"
   }, {
     "name" : "suite",
     "value" : "Rozetka tests"
@@ -118,11 +121,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ "Functional" ]
   },
-  "source" : "80590778a5f3344.json",
+  "source" : "960e03a3060b5b5c.json",
   "parameterValues" : [ ]
 }
