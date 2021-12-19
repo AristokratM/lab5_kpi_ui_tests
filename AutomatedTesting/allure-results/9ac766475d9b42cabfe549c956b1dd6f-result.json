@@ -1,0 +1,81 @@
+{
+  "uuid": "553e0631-aa70-4791-87d2-6cf0967eda12-tr-0-1002",
+  "historyId": "AutomatedTesting.Tests.TestSearch",
+  "fullName": "AutomatedTesting.Tests.TestSearch",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GTG9OD4"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomatedTesting.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSearch"
+    },
+    {
+      "name": "package",
+      "value": "AutomatedTesting.Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "subSuite",
+      "value": "Search"
+    },
+    {
+      "name": "suite",
+      "value": "Rozetka tests"
+    }
+  ],
+  "links": [],
+  "name": "TestSearch",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestSearch"
+  },
+  "stage": "finished",
+  "description": "Test search page result has correct catalog heading\n",
+  "steps": [
+    {
+      "name": "TestSearch",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6c105295466f448e8865c36d32e41d78-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1639951653147,
+      "stop": 1639951656227
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1639951653147,
+  "stop": 1639951656227
+}

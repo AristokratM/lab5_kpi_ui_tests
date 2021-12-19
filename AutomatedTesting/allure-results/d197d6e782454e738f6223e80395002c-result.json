@@ -1,0 +1,77 @@
+{
+  "uuid": "1174155c-3972-4740-bcf4-b014a82250ab-tr-0-1003",
+  "historyId": "AutomatedTesting.Tests.TestMicrophoneButton",
+  "fullName": "AutomatedTesting.Tests.TestMicrophoneButton",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GTG9OD4"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomatedTesting.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMicrophoneButton"
+    },
+    {
+      "name": "package",
+      "value": "AutomatedTesting.Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    },
+    {
+      "name": "subSuite",
+      "value": "Microphone"
+    },
+    {
+      "name": "suite",
+      "value": "Rozetka tests"
+    }
+  ],
+  "links": [],
+  "name": "TestMicrophoneButton",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestMicrophoneButton"
+  },
+  "stage": "finished",
+  "description": "Test that after click on microphone button search voice div is displayed\n",
+  "steps": [
+    {
+      "name": "TestMicrophoneButton",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0ff1c963807a4dcaa227ccdea82ae40c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1639951651454,
+      "stop": 1639951653145
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1639951651454,
+  "stop": 1639951653146
+}

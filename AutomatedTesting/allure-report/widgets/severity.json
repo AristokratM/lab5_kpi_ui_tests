@@ -1,0 +1,31 @@
+[ {
+  "uid" : "80590778a5f3344",
+  "name" : "TestMicrophoneButton",
+  "time" : {
+    "start" : 1639951651454,
+    "stop" : 1639951653146,
+    "duration" : 1692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e558f4397f5fdd4",
+  "name" : "TestLogoTitle",
+  "time" : {
+    "start" : 1639951649373,
+    "stop" : 1639951651405,
+    "duration" : 2032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77b8b44a21bf37d6",
+  "name" : "TestSearch",
+  "time" : {
+    "start" : 1639951653147,
+    "stop" : 1639951656227,
+    "duration" : 3080
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

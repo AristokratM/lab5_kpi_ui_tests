@@ -1,0 +1,62 @@
+{
+  "AutomatedTesting.Tests.TestLogoTitle" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e558f4397f5fdd4",
+      "status" : "passed",
+      "statusDetails" : "TestLogoTitle",
+      "time" : {
+        "start" : 1639951649373,
+        "stop" : 1639951651405,
+        "duration" : 2032
+      }
+    } ]
+  },
+  "AutomatedTesting.Tests.TestSearch" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77b8b44a21bf37d6",
+      "status" : "passed",
+      "statusDetails" : "TestSearch",
+      "time" : {
+        "start" : 1639951653147,
+        "stop" : 1639951656227,
+        "duration" : 3080
+      }
+    } ]
+  },
+  "AutomatedTesting.Tests.TestMicrophoneButton" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80590778a5f3344",
+      "status" : "passed",
+      "statusDetails" : "TestMicrophoneButton",
+      "time" : {
+        "start" : 1639951651454,
+        "stop" : 1639951653146,
+        "duration" : 1692
+      }
+    } ]
+  }
+}

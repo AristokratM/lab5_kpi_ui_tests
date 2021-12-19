@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-GTG9OD4",
+    "children" : [ {
+      "name" : "NonParallelWorker",
+      "children" : [ {
+        "name" : "TestSearch",
+        "uid" : "77b8b44a21bf37d6",
+        "parentUid" : "126c97290d280a3cbc44ef978842fb11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639951653147,
+          "stop" : 1639951656227,
+          "duration" : 3080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestMicrophoneButton",
+        "uid" : "80590778a5f3344",
+        "parentUid" : "126c97290d280a3cbc44ef978842fb11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639951651454,
+          "stop" : 1639951653146,
+          "duration" : 1692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLogoTitle",
+        "uid" : "9e558f4397f5fdd4",
+        "parentUid" : "126c97290d280a3cbc44ef978842fb11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639951649373,
+          "stop" : 1639951651405,
+          "duration" : 2032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "126c97290d280a3cbc44ef978842fb11"
+    } ],
+    "uid" : "c285740440964dbe5f444154b230e745"
+  } ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "AutomatedTesting.Tests",
+    "children" : [ {
+      "name" : "TestLogoTitle",
+      "uid" : "9e558f4397f5fdd4",
+      "parentUid" : "48d78ef9c2295e84934c56f28b92d94c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639951649373,
+        "stop" : 1639951651405,
+        "duration" : 2032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestMicrophoneButton",
+      "uid" : "80590778a5f3344",
+      "parentUid" : "48d78ef9c2295e84934c56f28b92d94c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639951651454,
+        "stop" : 1639951653146,
+        "duration" : 1692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestSearch",
+      "uid" : "77b8b44a21bf37d6",
+      "parentUid" : "48d78ef9c2295e84934c56f28b92d94c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639951653147,
+        "stop" : 1639951656227,
+        "duration" : 3080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "AutomatedTesting.Tests"
+  } ]
+}

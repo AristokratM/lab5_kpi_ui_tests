@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 20 00:07:29 EET 2021","Mon Dec 20 00:07:31 EET 2021","2032","","Rozetka tests","Logo","AutomatedTesting.Tests","TestLogoTitle","TestLogoTitle","Test website logo to have correct hypertext reference value
+"
+"passed","Mon Dec 20 00:07:31 EET 2021","Mon Dec 20 00:07:33 EET 2021","1692","","Rozetka tests","Microphone","AutomatedTesting.Tests","TestMicrophoneButton","TestMicrophoneButton","Test that after click on microphone button search voice div is displayed
+"
+"passed","Mon Dec 20 00:07:33 EET 2021","Mon Dec 20 00:07:36 EET 2021","3080","","Rozetka tests","Search","AutomatedTesting.Tests","TestSearch","TestSearch","Test search page result has correct catalog heading
+"

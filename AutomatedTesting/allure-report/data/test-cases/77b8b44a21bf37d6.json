@@ -1,0 +1,131 @@
+{
+  "uid" : "77b8b44a21bf37d6",
+  "name" : "TestSearch",
+  "fullName" : "AutomatedTesting.Tests.TestSearch",
+  "historyId" : "AutomatedTesting.Tests.TestSearch",
+  "time" : {
+    "start" : 1639951653147,
+    "stop" : 1639951656227,
+    "duration" : 3080
+  },
+  "description" : "Test search page result has correct catalog heading\n",
+  "descriptionHtml" : "<p>Test search page result has correct catalog heading</p>\n",
+  "status" : "passed",
+  "statusMessage" : "TestSearch",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1639951656227,
+      "stop" : 1639951656227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test search page result has correct catalog heading\n",
+    "status" : "passed",
+    "statusMessage" : "TestSearch",
+    "steps" : [ {
+      "name" : "TestSearch",
+      "time" : {
+        "start" : 1639951653147,
+        "stop" : 1639951656227,
+        "duration" : 3080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a809fed2406d195",
+        "name" : "Console Output",
+        "source" : "4a809fed2406d195.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1639951656227,
+      "stop" : 1639951656227,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GTG9OD4"
+  }, {
+    "name" : "testClass",
+    "value" : "AutomatedTesting.Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestSearch"
+  }, {
+    "name" : "package",
+    "value" : "AutomatedTesting.Tests"
+  }, {
+    "name" : "tag",
+    "value" : "Functional"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "subSuite",
+    "value" : "Search"
+  }, {
+    "name" : "suite",
+    "value" : "Rozetka tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Functional" ]
+  },
+  "source" : "77b8b44a21bf37d6.json",
+  "parameterValues" : [ ]
+}

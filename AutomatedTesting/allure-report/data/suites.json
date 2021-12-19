@@ -1,0 +1,72 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Rozetka tests",
+    "children" : [ {
+      "name" : "Logo",
+      "children" : [ {
+        "name" : "TestLogoTitle",
+        "uid" : "9e558f4397f5fdd4",
+        "parentUid" : "92783e7ec4a7265f7f3eb0d51314d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639951649373,
+          "stop" : 1639951651405,
+          "duration" : 2032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92783e7ec4a7265f7f3eb0d51314d0dd"
+    }, {
+      "name" : "Microphone",
+      "children" : [ {
+        "name" : "TestMicrophoneButton",
+        "uid" : "80590778a5f3344",
+        "parentUid" : "f787acbf0e203f55e116dc189951b39c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639951651454,
+          "stop" : 1639951653146,
+          "duration" : 1692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f787acbf0e203f55e116dc189951b39c"
+    }, {
+      "name" : "Search",
+      "children" : [ {
+        "name" : "TestSearch",
+        "uid" : "77b8b44a21bf37d6",
+        "parentUid" : "748b92d79a4659c4b8752001f1e7aef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639951653147,
+          "stop" : 1639951656227,
+          "duration" : 3080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "748b92d79a4659c4b8752001f1e7aef9"
+    } ],
+    "uid" : "b1522a8abdbfc520f3505925fb389383"
+  } ]
+}

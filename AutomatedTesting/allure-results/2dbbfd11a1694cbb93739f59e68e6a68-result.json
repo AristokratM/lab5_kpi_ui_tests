@@ -1,0 +1,81 @@
+{
+  "uuid": "ff2df40c-622e-4893-badf-7141c6489c80-tr-0-1001",
+  "historyId": "AutomatedTesting.Tests.TestLogoTitle",
+  "fullName": "AutomatedTesting.Tests.TestLogoTitle",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GTG9OD4"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomatedTesting.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestLogoTitle"
+    },
+    {
+      "name": "package",
+      "value": "AutomatedTesting.Tests"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "subSuite",
+      "value": "Logo"
+    },
+    {
+      "name": "suite",
+      "value": "Rozetka tests"
+    }
+  ],
+  "links": [],
+  "name": "TestLogoTitle",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestLogoTitle"
+  },
+  "stage": "finished",
+  "description": "Test website logo to have correct hypertext reference value\n",
+  "steps": [
+    {
+      "name": "TestLogoTitle",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f3a3864bf0a24ed8b65f1a56e197dbda-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1639951649374,
+      "stop": 1639951651399
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1639951649373,
+  "stop": 1639951651405
+}
