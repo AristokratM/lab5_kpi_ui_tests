@@ -28,6 +28,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="allure-report" />
+    <Folder Include="allure-results" />
     <Folder Include="PageObjects\" />
   </ItemGroup>
 </Project>

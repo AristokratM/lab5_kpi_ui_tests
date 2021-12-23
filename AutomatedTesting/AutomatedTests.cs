@@ -1,8 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading;
-using System.Threading.Tasks;
 using Allure.Commons;
 using AutomatedTesting.PageObjects;
 using NUnit.Allure.Attributes;
@@ -10,9 +6,7 @@ using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
-using SeleniumExtras.WaitHelpers;
 
 namespace AutomatedTesting
 {
@@ -22,6 +16,7 @@ namespace AutomatedTesting
     {
         private HomePage _homePage;
         private IWebDriver _driver;
+        private WebDriverWait _wait;
         private const string WebDriverPath = "C:\\Users\\1\\RiderProjects\\AutomatedUITesting";
 
         [OneTimeSetUp]
@@ -30,6 +25,8 @@ namespace AutomatedTesting
             var chrome_options = new ChromeOptions();
             chrome_options.AddArgument("--use-fake-ui-for-media-stream");
             _driver = new ChromeDriver(WebDriverPath, chrome_options);
+
+            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
         }
 
         [Test(Description = "Test website logo to have correct hypertext reference value")]
@@ -38,15 +35,11 @@ namespace AutomatedTesting
         [AllureSubSuite("Logo")]
         public void TestLogoHypertextReference()
         {
-            // Arrange
-            var wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
-            _homePage = new HomePage(_driver, wait);
+            _homePage = new HomePage(_driver, _wait);
             const string expectedHypertextReferenceValue = "https://rozetka.com.ua/";
-
-            //Act
+            
             var actualHypertextReferenceValue = _homePage.Logo.GetAttribute("href");
-
-            //Assert
+            
             Assert.IsTrue(actualHypertextReferenceValue.Contains(expectedHypertextReferenceValue));
         }
 
@@ -56,18 +49,14 @@ namespace AutomatedTesting
         [AllureSubSuite("Search")]
         public void TestSearch()
         {
-            //Arrange
             const string searchText = "NVIDIA GeForce GTX 1650";
-            var wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
-            _homePage = new HomePage(_driver, wait);
-
-            //Act
+            _homePage = new HomePage(_driver, _wait);
+            
             _homePage.SearchInput.SendKeys(searchText);
             _homePage.SearchInput.SendKeys(Keys.Enter);
-            var searchResult = new SearchResultPage(wait);
+            var searchResult = new SearchResultPage(_wait);
             var resultCatalogHeading = searchResult.SearchPageResultCatalogHeading.Text;
-
-            //Assert
+            
             Assert.IsTrue(resultCatalogHeading.Contains(searchText));
         }
 
@@ -76,14 +65,10 @@ namespace AutomatedTesting
         [AllureSubSuite("Microphone")]
         public void TestMicrophoneButton()
         {
-            //Arrange
-            var wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
-            _homePage = new HomePage(_driver, wait);
+            _homePage = new HomePage(_driver, _wait);
             
-            //Act
             _homePage.MicrophoneButton.Click();
 
-            //Assert
             Assert.True(_homePage.SearchVoiceDiv.Displayed);
         }
         
